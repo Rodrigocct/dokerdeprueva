@@ -8,7 +8,7 @@ FROM node:19-alpine as build
 
 WORKDIR /app
 
-RUN wget https://github.com/josephantonyc/mobdev_ca3/archive/main.tar.gz && tar xf main.tar.gz && rm main.tar.gz
+RUN wget https://github.com/rodrigocct/mobdev_ca3/archive/main.tar.gz && tar xf main.tar.gz && rm main.tar.gz
  
 
 WORKDIR /app/mobdev_ca3-main/
